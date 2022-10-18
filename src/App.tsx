@@ -1,6 +1,7 @@
 import { Flex } from '@chakra-ui/react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Explorer from './Components/Explorer';
 import Sidemenu from './Components/Sidemenu';
 import TopMenu from './Components/TopMenu';
 import About from './Pages/About';
@@ -12,10 +13,11 @@ import Settings from './Pages/Settings';
 
 function App() {
   return (
-    <Flex direction='column' bg="NightOwbg">
+    <Flex direction='column' bg="NightOwbg" w='100vw'>
       < TopMenu />
       <Flex>
         <Sidemenu />
+        <Explorer />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />

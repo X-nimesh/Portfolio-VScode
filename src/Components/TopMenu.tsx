@@ -6,7 +6,7 @@ import { ReactComponent as MinusIcon } from '../assets/minusIcon.svg'
 const TopMenu = () => {
     return (
         <>
-            <Flex justify='space-between' align='center' p='0px' position='sticky'>
+            <Flex justify='space-between' align='center' p='0px' position='sticky' flexWrap='wrap'>
                 <Flex align='center' p='2px 0' color='textC' >
                     <Image src='image/icon.png' w='16px' ml='7px' />
                     <Flex ml='8px' color='white' >

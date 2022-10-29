@@ -1,4 +1,4 @@
-import { Button, Collapse, Flex, Menu, MenuButton, MenuItem, MenuList, Slide, Text } from '@chakra-ui/react'
+import { Box, Button, Collapse, Flex, Menu, MenuButton, MenuItem, MenuList, Slide, Text } from '@chakra-ui/react'
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import React, { useState } from 'react'
 import EXplorerFiles from './ExplorerFiles';
@@ -12,14 +12,17 @@ const Explorer = () => {
         <Flex w='15vw'
             maxW='210px'
             minW='150px'
-            direction='column'>
+            direction='column'
+            boxShadow='13px 12px 20px 0px #0000002e'>
             <Flex p='5px 10px'>
                 <Text color='textC' fontSize='14px'>Explorer</Text>
             </Flex>
-            <Flex flexDirection='column' alignItems='flex-start' >
-                <Flex as={Button} gap='5px' p='0px' pl='20px' _hover={{ bg: 'none' }}
+            <Flex flexDirection='column' alignItems='flex-start' w='100%' >
+                <Flex as={Button} gap='5px' p='0px' _hover={{ bg: 'none' }}
                     bg='none'
-                    align='center' color='white'
+                    w='100%'
+                    justifyContent='flex-start'
+                    color='white'
                     onClick={() => { setisOPen(!isOPen) }}>
                     {isOPen ? <FiChevronUp /> : <FiChevronDown />}
 
@@ -27,9 +30,12 @@ const Explorer = () => {
                         Portfolio
                     </Text>
                 </Flex>
-                <Collapse in={isOPen} animateOpacity>
-                    <EXplorerFiles />
-                </Collapse>
+                <Box w='100%'>
+
+                    <Collapse in={isOPen} animateOpacity >
+                        <EXplorerFiles />
+                    </Collapse>
+                </Box>
             </Flex>
             {/* <Menu>
                 <MenuButton as={Button} gap='5px' p='5px 10px'

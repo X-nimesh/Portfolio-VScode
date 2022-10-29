@@ -21,6 +21,19 @@ export const ButtonTheme = {
                 background: '#1F2B39',
 
             }
+        },
+        fileTabs: {
+            background: '#01111e00',
+            p: '5px 30px',
+            cursor: 'pointer',
+            fontWeight: 'normal',
+            color: '#7580AD',
+            borderRight: '2px',
+            borderRadius: '1px',
+            borderColor: '#3B4B69',
+            h: 'fit-content',
+            fontSize: '14px',
+
         }
     }
 }

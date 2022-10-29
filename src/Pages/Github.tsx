@@ -1,8 +1,9 @@
+import { Flex } from '@chakra-ui/react'
 import React from 'react'
 
 const Github = () => {
     return (
-        <div>Github</div>
+        <Flex color='white'>Github</Flex>
     )
 }
 

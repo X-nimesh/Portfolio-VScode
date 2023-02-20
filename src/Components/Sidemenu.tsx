@@ -11,7 +11,7 @@ import { NavLink } from 'react-router-dom'
 const Sidemenu = () => {
     let activeStyle = {
         background: '#0B2941',
-        'border-left': '2px solid #627991'
+        'borderLeft': '2px solid #627991'
     }
     return (
         <Flex direction='column' minHeight='96vh' maxW='50px'

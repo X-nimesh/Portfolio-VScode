@@ -14,7 +14,7 @@ import Settings from './Pages/Settings';
 
 function App() {
   return (
-    <Flex direction='column' bg="NightOwbg" w='100%' h='100vh'>
+    <Flex direction='column' bg="NightOwbg" w='100%' h='100vh' overflow='hidden'>
       < TopMenu />
       <Flex>
         <Sidemenu />

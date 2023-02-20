@@ -1,4 +1,4 @@
-import { Box, Button, Collapse, Flex, Menu, MenuButton, MenuItem, MenuList, Slide, Text } from '@chakra-ui/react'
+import { Box, Button, Collapse, Flex, Menu, MenuButton, MenuItem, MenuList, Show, Slide, Text } from '@chakra-ui/react'
 import { FiChevronDown, FiChevronUp } from "react-icons/fi";
 import React, { useState } from 'react'
 import EXplorerFiles from './ExplorerFiles';
@@ -9,35 +9,36 @@ const Explorer = () => {
 
     const [isOPen, setisOPen] = useState(true);
     return (
-        <Flex w='15vw'
-            maxW='210px'
-            minW='150px'
-            direction='column'
-            boxShadow='13px 12px 20px 0px #0000002e'>
-            <Flex p='5px 10px'>
-                <Text color='textC' fontSize='14px'>Explorer</Text>
-            </Flex>
-            <Flex flexDirection='column' alignItems='flex-start' w='100%' >
-                <Flex as={Button} gap='5px' p='0px' _hover={{ bg: 'none' }}
-                    bg='none'
-                    w='100%'
-                    justifyContent='flex-start'
-                    color='white'
-                    onClick={() => { setisOPen(!isOPen) }}>
-                    {isOPen ? <FiChevronUp /> : <FiChevronDown />}
-
-                    <Text fontWeight={'bold'} color='textC'>
-                        Portfolio
-                    </Text>
+        <Show above='1100px'>
+            <Flex w='15vw'
+                maxW='210px'
+                minW='150px'
+                direction='column'
+                boxShadow='13px 12px 20px 0px #0000002e'>
+                <Flex p='5px 10px'>
+                    <Text color='textC' fontSize='14px'>Explorer</Text>
                 </Flex>
-                <Box w='100%'>
+                <Flex flexDirection='column' alignItems='flex-start' w='100%' >
+                    <Flex as={Button} gap='5px' p='0px' _hover={{ bg: 'none' }}
+                        bg='none'
+                        w='100%'
+                        justifyContent='flex-start'
+                        color='white'
+                        onClick={() => { setisOPen(!isOPen) }}>
+                        {isOPen ? <FiChevronUp /> : <FiChevronDown />}
 
-                    <Collapse in={isOPen} animateOpacity >
-                        <EXplorerFiles />
-                    </Collapse>
-                </Box>
-            </Flex>
-            {/* <Menu>
+                        <Text fontWeight={'bold'} color='textC'>
+                            Portfolio
+                        </Text>
+                    </Flex>
+                    <Box w='100%'>
+
+                        <Collapse in={isOPen} animateOpacity >
+                            <EXplorerFiles />
+                        </Collapse>
+                    </Box>
+                </Flex>
+                {/* <Menu>
                 <MenuButton as={Button} gap='5px' p='5px 10px'
                     _hover={{ bg: 'none' }}
                     _expanded={{ bg: 'none' }}
@@ -68,7 +69,9 @@ const Explorer = () => {
                     </Flex>
                 </MenuList>
             </Menu> */}
-        </Flex >
+            </Flex >
+        </Show>
+
     )
 }
 

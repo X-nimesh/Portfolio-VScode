@@ -24,7 +24,7 @@ export const ButtonTheme = {
         },
         fileTabs: {
             background: '#01111e00',
-            p: '5px 30px',
+            p: '5px 30px 5px 18px',
             cursor: 'pointer',
             fontWeight: 'normal',
             color: '#7580AD',

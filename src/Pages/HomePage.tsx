@@ -9,9 +9,9 @@ const HomePage = () => {
 
     return (
         <Flex color='white' alignItems={'flex-end'} w='100%' h="100%" overflow='hidden' >
-            <Flex my='auto' direction='column' ml='30px' alignItems={'center'} gap='20px'>
-                <Image src='./image/nimesh.png' mb='auto' w='30vw' />
-                <Text fontSize='18px' ml='30px' w='80%' color={'#beacff'} as='pre'>
+            <Flex my='auto' direction='column' ml={['0', '3%']} alignItems={['flex-start', 'center']} gap='50px'>
+                <Image src='./image/nimesh.png' mb='auto' w={['290px', '30vw']} />
+                <Text fontSize={['0.9em', '1.2em']} w={['', '80%']} color={'#beacff'} as='pre'>
                     {`const `}
                     <Text as={'span'} color={'#6191ff'}>
                         {`Intro `}
@@ -41,12 +41,12 @@ const HomePage = () => {
                 </Text>
             </Flex>
             <Flex >
-                <Show above='lg'>
-                    <Image src='./image/man.png' w='55vw' />
-                    <Box zIndex='2' position='relative' left='200px' bottom='200px' >
-                        <ReactLogo width='300px' />
-                    </Box>
-                </Show>
+                {/* <Show above='lg'> */}
+                <Image src='./image/man.png' w='50vw' minW='700px' />
+                {/* <Box zIndex='2' position='relative' left='200px' bottom='200px' > */}
+                {/* <ReactLogo width='300px' /> */}
+                {/* </Box> */}
+                {/* </Show> */}
             </Flex >
         </Flex >
     )

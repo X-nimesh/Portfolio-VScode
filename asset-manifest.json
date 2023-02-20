@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-VScode/static/css/main.650ae6a1.css",
-    "main.js": "/Portfolio-VScode/static/js/main.c88382b7.js",
+    "main.js": "/Portfolio-VScode/static/js/main.16bfc5f1.js",
     "static/media/account.svg": "/Portfolio-VScode/static/media/account.71e285772e5e1fac4376e9f9da92b6d6.svg",
     "static/media/scss.svg": "/Portfolio-VScode/static/media/scss.268e3eae7bab4d31e903cda005f309c2.svg",
     "static/media/github-outline.svg": "/Portfolio-VScode/static/media/github-outline.15d8a41c75d52f736a9de89afc2c79b0.svg",
@@ -12,10 +12,10 @@
     "static/media/code.svg": "/Portfolio-VScode/static/media/code.db59aecb60ea55db71952c53cfb0baf2.svg",
     "static/media/Explorer.svg": "/Portfolio-VScode/static/media/Explorer.50aa3636c325a445fa740d28ecc89ea1.svg",
     "main.650ae6a1.css.map": "/Portfolio-VScode/static/css/main.650ae6a1.css.map",
-    "main.c88382b7.js.map": "/Portfolio-VScode/static/js/main.c88382b7.js.map"
+    "main.16bfc5f1.js.map": "/Portfolio-VScode/static/js/main.16bfc5f1.js.map"
   },
   "entrypoints": [
     "static/css/main.650ae6a1.css",
-    "static/js/main.c88382b7.js"
+    "static/js/main.16bfc5f1.js"
   ]
 }

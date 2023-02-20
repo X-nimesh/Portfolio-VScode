@@ -20,7 +20,7 @@ const About = () => {
                     repeat={1}
                     style={{ fontSize: '1.1em', fontFamily: 'JetBrains Mono,monospace', marginTop: '20px' }}
                 />
-                <Image src='./image/nimesh_pic.jpg' alt='Nimesh' height={'500px'} borderRadius='10%'
+                <Image src='https://raw.githubusercontent.com/X-nimesh/Portfolio-VScode/main/public/image/nimesh_pic.JPG' alt='Nimesh' height={'500px'} borderRadius='10%'
                     _hover={
                         {
                             transform: 'scale(1.05)',

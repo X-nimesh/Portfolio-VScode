@@ -10,7 +10,7 @@ const HomePage = () => {
     return (
         <Flex color='white' alignItems={'flex-end'} w='100%' h="100%" overflow='hidden' >
             <Flex my='auto' direction='column' ml={['0', '3%']} alignItems={['flex-start', 'center']} gap='50px'>
-                <Image src='./image/nimesh.png' mb='auto' w={['290px', '30vw']} />
+                <Image src='https://raw.githubusercontent.com/X-nimesh/X-nimesh/main/new%20nimesh.png' mb='auto' w={['290px', '30vw']} />
                 <Text fontSize={['0.9em', '1.2em']} w={['', '80%']} color={'#beacff'} as='pre'>
                     {`const `}
                     <Text as={'span'} color={'#6191ff'}>
@@ -42,7 +42,7 @@ const HomePage = () => {
             </Flex>
             <Flex >
                 {/* <Show above='lg'> */}
-                <Image src='./image/man.png' w='50vw' minW='700px' />
+                <Image src='https://raw.githubusercontent.com/X-nimesh/Portfolio-VScode/main/public/image/man.png' w='50vw' minW='700px' />
                 {/* <Box zIndex='2' position='relative' left='200px' bottom='200px' > */}
                 {/* <ReactLogo width='300px' /> */}
                 {/* </Box> */}

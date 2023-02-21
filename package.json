@@ -1,7 +1,7 @@
 {
   "name": "portfolio-vscode",
   "version": "0.1.0",
-  "homepage": "https://www.nimesh11.com.np/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.3.5",

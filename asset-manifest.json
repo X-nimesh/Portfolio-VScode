@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio-VScode/static/css/main.650ae6a1.css",
-    "main.js": "/Portfolio-VScode/static/js/main.16bfc5f1.js",
-    "static/media/account.svg": "/Portfolio-VScode/static/media/account.71e285772e5e1fac4376e9f9da92b6d6.svg",
-    "static/media/scss.svg": "/Portfolio-VScode/static/media/scss.268e3eae7bab4d31e903cda005f309c2.svg",
-    "static/media/github-outline.svg": "/Portfolio-VScode/static/media/github-outline.15d8a41c75d52f736a9de89afc2c79b0.svg",
-    "index.html": "/Portfolio-VScode/index.html",
-    "static/media/crossIcon.svg": "/Portfolio-VScode/static/media/crossIcon.6323a1c32ebd3d9502859c04ae8d3460.svg",
-    "static/media/minusIcon.svg": "/Portfolio-VScode/static/media/minusIcon.2607d2ea8c2842a32276477b50bd3d99.svg",
-    "static/media/mail.svg": "/Portfolio-VScode/static/media/mail.7eb539bf13d8f749890a6fff97244794.svg",
-    "static/media/code.svg": "/Portfolio-VScode/static/media/code.db59aecb60ea55db71952c53cfb0baf2.svg",
-    "static/media/Explorer.svg": "/Portfolio-VScode/static/media/Explorer.50aa3636c325a445fa740d28ecc89ea1.svg",
-    "main.650ae6a1.css.map": "/Portfolio-VScode/static/css/main.650ae6a1.css.map",
-    "main.16bfc5f1.js.map": "/Portfolio-VScode/static/js/main.16bfc5f1.js.map"
+    "main.css": "./static/css/main.650ae6a1.css",
+    "main.js": "./static/js/main.281dc743.js",
+    "static/media/account.svg": "./static/media/account.71e285772e5e1fac4376e9f9da92b6d6.svg",
+    "static/media/scss.svg": "./static/media/scss.268e3eae7bab4d31e903cda005f309c2.svg",
+    "static/media/github-outline.svg": "./static/media/github-outline.15d8a41c75d52f736a9de89afc2c79b0.svg",
+    "index.html": "./index.html",
+    "static/media/crossIcon.svg": "./static/media/crossIcon.6323a1c32ebd3d9502859c04ae8d3460.svg",
+    "static/media/minusIcon.svg": "./static/media/minusIcon.2607d2ea8c2842a32276477b50bd3d99.svg",
+    "static/media/mail.svg": "./static/media/mail.7eb539bf13d8f749890a6fff97244794.svg",
+    "static/media/code.svg": "./static/media/code.db59aecb60ea55db71952c53cfb0baf2.svg",
+    "static/media/Explorer.svg": "./static/media/Explorer.50aa3636c325a445fa740d28ecc89ea1.svg",
+    "main.650ae6a1.css.map": "./static/css/main.650ae6a1.css.map",
+    "main.281dc743.js.map": "./static/js/main.281dc743.js.map"
   },
   "entrypoints": [
     "static/css/main.650ae6a1.css",
-    "static/js/main.16bfc5f1.js"
+    "static/js/main.281dc743.js"
   ]
 }

@@ -1,6 +1,15 @@
 import { Flex, Heading, Link, Text } from '@chakra-ui/react'
 import React from 'react'
+export const socialMediaLink = {
+    website: 'https://www.nimesh11.com.np/',
+    github: 'https://github.com/X-nimesh',
+    linkedin: 'https://www.linkedin.com/in/x-nimesh/',
+    twitter: 'https://twitter.com/xrestanimesh07',
+    instagram: 'https://www.instagram.com/xresta_nimesh/',
+    facebook: 'https://www.facebook.com/xresta.nimesh',
+    email: 'mailto:xnimesh7@gmail.com'
 
+}
 const Contact = () => {
     const socials = [
         {

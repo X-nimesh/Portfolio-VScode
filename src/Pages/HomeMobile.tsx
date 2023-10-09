@@ -45,11 +45,14 @@ const HomeMobile = () => {
                         <Text as={'span'} color={'#beacff'}>
                             {`E-mail: `}
                         </Text>
-                        {`'X.nimesh7@gmail.com',`} <br />
+                        <Text as={'a'} color={"#ffffff"} href={'malito:X.nimesh7@gmail.com'} >
+
+                            {`'X.nimesh7@gmail.com',`}
+                        </Text><br />
                         <Text as={'span'} color={'#beacff'}>
                             {`LinkedIn:`}
                         </Text>
-                        <Text as={'a'} color={"#f0b0ff"} href={'https://www.linkedin.com/in/x-nimesh/'} >
+                        <Text as={'a'} color={"#ffffff"} href={'https://www.linkedin.com/in/x-nimesh/'} >
                             {` 'https://www.linkedin.com/in/x-nimesh/',`}
                         </Text>
                         <br />

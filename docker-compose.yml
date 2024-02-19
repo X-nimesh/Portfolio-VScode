@@ -1,0 +1,9 @@
+version: "3"
+services:
+  production:
+    container_name: fe_chess
+    image: fe_chess
+    build: .
+    ports:
+      - "3000:80"
+    restart: always

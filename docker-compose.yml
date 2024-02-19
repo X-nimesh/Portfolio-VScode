@@ -1,8 +1,8 @@
 version: "3"
 services:
   production:
-    container_name: fe_chess
-    image: fe_chess
+    container_name: portfolio_vscode
+    image: portfolio_vscode
     build: .
     ports:
       - "3000:3000"
